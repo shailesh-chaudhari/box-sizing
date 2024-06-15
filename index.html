@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- height and with 300*300 -->
+    <div id="div1">hello</div>
+    <!-- height and width 364*364 because of padding 300+32+32=364 -->
+    <div id="div2">hello</div>
+    <!-- using box-sizing property box-sizing:border-box height and width is 300*300 because of box sizing -->
+    <div id="div3">hello</div>
+    
+    <!-- height and width 300*300 -->
+    <div id="div4"><img class="image" src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" alt="Cat"></div>
+    <!-- when add padding in image it take width plus padding top and bottom here it take 300+32+32 = 364 (364*364) -->
+    <div id="div5"><img class="image" src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" alt="Cat"></div>
+  <!-- widht and height is 300*300 using box-sizing property box-sizing:border-box but there is a side effect if you increase padding size then image size is decrease -->
+    <div id="div6"><img class="image" src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" alt="Cat"></div>
+</body>
+</html>

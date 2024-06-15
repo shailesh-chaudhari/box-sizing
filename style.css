@@ -1,0 +1,52 @@
+#div1{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: lightcoral;
+}
+#div2{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;
+    margin-top: 24px;
+    padding: 32px;    
+}
+#div3{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;
+    margin-top: 24px;
+    padding: 32px;
+    box-sizing: border-box; 
+}
+#div4{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;  
+    margin-top: 24px;
+}
+#div5{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;  
+    margin-top: 24px;
+    padding: 32px;
+}
+#div6{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;  
+    margin-top: 24px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.image{
+width: 100%;
+}
